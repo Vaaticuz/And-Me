@@ -1,0 +1,137 @@
+body {
+   background-color:dimgray;
+   font-family: "Schoolbell";
+   background-image: url(assets/test.jpeg);
+
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: overlay;
+   image-rendering: optimizeSpeed;
+}
+
+#title {
+   color: white;
+   font-size: 150%;
+   max-height: 100%;
+   max-width: 10%;
+   align-items: center;
+   align-self: center;
+   letter-spacing: 5px;
+
+
+}
+.screen {
+ display: flex;
+ border: 5px solid black;
+ text-align: center;
+ max-width: 75%;
+ margin: auto;
+ min-height: 600px;
+ margin-top: 3%;
+ padding: auto;
+ justify-content:center;
+ background-repeat: no-repeat;
+ background-color: tan;
+ background-image: url(assets/test.jpeg);
+ background-size: cover;
+ flex-direction: column;
+ background-position: bottom;
+ image-rendering: optimizeSpeed;
+
+ 
+ 
+}
+
+#start {
+   background-color: transparent;
+   max-height: fit-content;
+   color: white;
+   min-width: 10%;
+   justify-self: center;
+   font-family: "Schoolbell";
+   text-align: center;
+   min-width: 15%;
+   align-self: center;
+   font-size: 125%;
+
+}
+
+
+#directions {
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+   flex-direction: row;
+ 
+}
+
+#dir-left {
+background-color: dimgray;
+max-width: 25%;
+
+font-size: xx-large;
+
+}
+
+#dir-right {
+max-width: 25%;
+min-height: 5%;
+background-color: dimgray;
+font-size: xx-large;
+
+}
+
+#dir-up {
+display: flex;
+max-width: 25%;
+min-width: 10%;
+min-height: 5%;
+background-color: dimgray;
+font-size: xx-large;  
+align-self: center;
+flex-direction:  column;
+position: absolute;
+bottom: 92.7%;
+}
+
+#dir-down {
+display: flex;
+max-width: 25%;
+min-width: 10%;
+min-height: 5%;
+background-color: dimgray;
+font-size: xx-large;  
+align-self: center;
+flex-direction:  column;
+position: absolute;
+top: 77%;
+
+}
+.interface {
+border: 5px solid rgb(57, 33, 33) ;
+align-self: center; 
+min-height: 70px;
+padding: auto;  
+background-image: url(assets/invetory.jpeg);
+background-size: cover;
+background-position: center;
+background-blend-mode: overlay;
+max-width: 70%;
+margin: auto;
+} 
+
+#key {
+display: flex;
+position: absolute;
+max-width: 3%;
+left: 25%;
+bottom: 40%;
+align-self: flex-start;
+
+
+
+}
+#key:hover {
+max-width: 5%;
+transition: 1s
+}
